@@ -51,7 +51,7 @@ import java.util.ArrayList;
             int result = calculator.Evaluate(readFile().get(i));
 
             // CICLO IF
-            if (result != 0){
+            if (result != 000){
                 System.out.println("\nEl resultado de la expresion es: " + result);
             } // Llave del if
 

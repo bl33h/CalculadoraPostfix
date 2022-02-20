@@ -14,7 +14,7 @@ public class Interprete implements PostfixCalc { // Clase que implementa una int
 	public boolean numeric = false; // Evalua si el valor es numerico
 	public String txt  = ""; // Texto
 	private String[] data; // Data para hacerle split
-	private Operadora<String> stack = new Stack<String>(); // Pila
+	private Operadora<String> stack = new Operadora<String>(); // Pila
 	private int nA; // Operando 1
 	private int nB; // Operando 2
 

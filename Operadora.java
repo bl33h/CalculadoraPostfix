@@ -10,7 +10,7 @@
  // Copia de la clases Stack del repositorio https://github.com/malonso-uvg/ADT_Stack/tree/main/src/com/uvg/main
 
 import java.util.ArrayList; // Se importa ArrayList
-public class Operadora implements Stack { // Clase que implementa una interfaz
+public class Operadora<T> implements Stack<T>  { // Clase que implementa una interfaz
     
     private ArrayList<T> coreList;
 	

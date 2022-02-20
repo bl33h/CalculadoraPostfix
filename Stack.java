@@ -8,6 +8,8 @@
  * @author Sara Echeverria
  */
 
+  // Copia de la interfaz IStack del repositorio https://github.com/malonso-uvg/ADT_Stack/tree/main/src/com/uvg/main
+
 public interface Stack<T> {
 
 	void push(T value);

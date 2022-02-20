@@ -7,10 +7,10 @@
  * Date: 18/02/2022
  * @author Sara Echeverria
  */
-import java.io.File;  
-import java.util.Scanner;
-import java.io.FileNotFoundException; 
 import java.util.ArrayList;
+import java.io.File;  
+import java.io.FileNotFoundException; 
+import java.util.Scanner;
 
  public class Controladora { // Main class
     /**
@@ -51,7 +51,7 @@ import java.util.ArrayList;
             int result = calculator.Evaluate(readFile().get(i));
 
             // CICLO IF
-            if (result != 000){
+            if (result != 123456789){
                 System.out.println("\nEl resultado de la expresion es: " + result);
             } // Llave del if
 
@@ -61,3 +61,4 @@ import java.util.ArrayList;
     } // Llave del void
 
 } // Llave de la clase
+

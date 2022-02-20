@@ -25,7 +25,7 @@ import java.util.ArrayList;
             ArrayList<String> file = new ArrayList<String>();
             Scanner reader = new Scanner(datos); 
             while (reader.hasNextLine()){
-                archivo.add(reader.nextLine());
+                file.add(reader.nextLine());
             }
             reader.close();
             return file;
@@ -51,13 +51,13 @@ import java.util.ArrayList;
             int result = calculator.Evaluate(readFile().get(i));
 
             // CICLO IF
-            if (result != " "){
+            if (result != 0){
                 System.out.println("\nEl resultado de la expresion es: " + result);
             } // Llave del if
 
         }  // Llave del for
         System.out.println("\n Esperamos que el programa le haya sido de utilidad, volver a compilar si se desea utilizar otra vez.");
-            
+
     } // Llave del void
 
 } // Llave de la clase

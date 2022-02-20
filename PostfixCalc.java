@@ -1,12 +1,14 @@
-/**
- * FileName: PostfixCalc
+/* --- CALCULADORA POSTFIX --- ECH */
+
+ /*
+ * FileName: PostfixCalc (interface)
  * Author: Sara Echeverria
  * ID: 21371
  * Date: 18/02/2022
  * @author Sara Echeverria
  */
 
-public interface IPosfixCalc {
+public interface PostfixCalc {
 
 	/***
 	 * This method is used to evaluate a postfix expression

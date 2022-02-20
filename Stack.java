@@ -1,5 +1,7 @@
-/**
- * FileName: Stack
+/* --- CALCULADORA POSTFIX --- ECH */
+
+ /*
+ * FileName: Stack (interface)
  * Author: Sara Echeverria
  * ID: 21371
  * Date: 18/02/2022
